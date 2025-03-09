@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-gem 'rails', '4.0.0'
+gem 'rails', '7.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.1.2'
@@ -28,7 +28,7 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 6.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -43,7 +43,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
